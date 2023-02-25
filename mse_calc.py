@@ -116,7 +116,7 @@ print("Start")
 #         list = filename.split(".")
        
 
-for (dirpath, dirnames, filenames) in os.walk(r"E:\OneDrive - Hanoi University of Science and Technology\Documents\\20221\Image Processing\\farneback\eval-color-allframes\eval-data\Yosemite"):
+for (dirpath, dirnames, filenames) in os.walk(r"image_data\Yosemite"):
     filenames.sort()
     for i in range(0, len(filenames)-1):
         # print(filenames[i])
